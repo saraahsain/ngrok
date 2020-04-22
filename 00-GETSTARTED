@@ -1,0 +1,8 @@
+Go to https://ngrok.com/
+Click on Get started for free
+Create an account
+Once you're logged in, you're redirected to https://dashboard.ngrok.com/get-started/setup
+For windows: click on download for Windows
+Unzip the file
+Place the ngrok.exe in a path that you can add to the ENV variables PATH
+Add it to the path so you can access it anywhere from CMD
