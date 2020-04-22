@@ -1,0 +1,10 @@
+In my own experience, it didn't work when I run the project and it's configured with SSL
+1- If your local project is configured to run on SSL:
+- Go to property pages -> WEB -> change from https:// to http:// 
+- And then put SSL to false
+2- Run your project 
+3- Windows + R
+4- CMD
+5- ngrok http [PORT] -host-header="localhost:[PORT]"
+
+You can then send any API call with the https:// URL ngrok provides and track traffic http://localhost:4040
